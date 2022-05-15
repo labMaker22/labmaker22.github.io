@@ -1,0 +1,77 @@
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 400px;
+    position: relative;
+    right: -550px;
+    bottom: 400px;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 90px;
+    text-align:right;
+    color: #CCC;
+  }
+  
+  input,
+  textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+  
+    border: 1px solid #ccc;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: rgba(102, 93, 93, 0.884);
+  }
+  
+  textarea {
+    vertical-align: top;
+  
+    height: 5em;
+  }
+  
+  .button {
+    padding-left: 90px;
+    position: relative;
+    right: -1300px;
+    bottom: 380px;
+  }
+  
+  button {
+    margin-left: .5em;
+  }
+
+  .div>iframe{
+      position: relative;
+      top: 300px;
+  }
+  .content>h2{
+      position: relative;
+     top: 50px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     color: orange;
+    }
+.content>h3{
+  color: #CCC;
+}
+
